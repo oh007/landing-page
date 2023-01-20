@@ -1,0 +1,162 @@
+
+
+
+
+
+/* Media querry for phone */
+@media only screen and (max-width: 600px) {
+ /* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+a.navbar-brand {
+color: #FFBC00;
+}
+
+.navbar-brand {
+    
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.navbar-toggler {
+    background-color: transparent;
+    border: 1px solid transparent;
+}
+.nav-item {
+  padding: 0 10px;
+}
+a.nav-link{
+    color: aliceblue;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  font-weight: 500;
+}
+
+/* main-content */
+.main-content{
+    display: flex;
+    flex-direction: column;
+    background-image: url('images/main-background.jpg');
+    height: 500px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; 
+    padding: 10px 10px 10px 10px;
+    background-color: #202633;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    margin: auto;
+    color: aliceblue;
+}
+.contact-btn{
+    display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  padding-bottom: 10px;
+  margin: auto;
+
+  
+}
+.button-1{
+    color: aliceblue;
+    margin-right: 25px;
+ 
+
+}
+
+.button-2{
+    margin-left: 25px ;
+}
+
+.card{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.card.card-reference{
+    background-color:#202633;
+}
+#card-img{
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    border: 2px solid aliceblue;
+}
+#card-info-name{
+    color: aliceblue;
+}
+#card-info-city{
+color: aliceblue;
+font-size: small;
+}
+#card-info-text{
+    text-align: center;
+    color: aliceblue;
+    padding:10px;
+}
+/* Main page end */
+
+/* Contact page  */
+.contact-page{
+    display: flex;
+    flex-direction: column;
+}
+#contact-page-header{
+    text-align: center;
+    margin-top: 10px;
+}
+#contact-form-div{
+    background-color: #202633;
+    display: flex;
+  flex-direction: column;
+  height: 10vh; 
+  padding: 10px 5px;
+  box-sizing: border-box;
+}
+#contact-form{
+    flex-direction: row;
+    margin: auto;
+}
+#btn-form{
+    padding: 5px;
+    background-color: #FFBC00;
+    color: aliceblue;
+    margin: auto;
+    text-align: center;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    align-items: center;
+}
+/* Contactpage end */
+
+/* Carousel  */
+
+.carousel-main{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.carousel-header{
+    text-align: center;
+    padding-top: 10px;
+}
+.info-about{
+    text-align: center;
+    padding-top: 10px;
+}
+}
