@@ -116,6 +116,10 @@ font-size: small;
     display: flex;
     flex-direction: column;
 }
+#example-img{
+    width: 450px;
+    height: 450px;
+}
 #contact-page-header{
     text-align: center;
     margin:30px;
