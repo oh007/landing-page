@@ -49,6 +49,9 @@ a.nav-link{
     padding: 10px 10px 10px 10px;
     background-color: #202633;
 }
+.main-header{
+    padding: 10px;
+}
 
 .row{
     display: flex;
@@ -62,12 +65,12 @@ a.nav-link{
     display: flex;
   flex-wrap: wrap;
   gap: 5px;
-  padding-bottom: 10px;
+  padding-bottom: 15px;
   margin: auto;
 
   
 }
-.button-1{
+button.button-1{
     color: aliceblue;
     margin-right: 25px;
  
@@ -115,19 +118,21 @@ font-size: small;
 }
 #contact-page-header{
     text-align: center;
-    margin-top: 10px;
+    margin:30px;
 }
 #contact-form-div{
     background-color: #202633;
     display: flex;
   flex-direction: column;
-  height: 10vh; 
-  padding: 10px 5px;
+  padding: 25px 5px;
   box-sizing: border-box;
 }
 #contact-form{
-    flex-direction: row;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
     margin: auto;
+   
 }
 #btn-form{
     padding: 5px;
@@ -141,22 +146,80 @@ font-size: small;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
     align-items: center;
+    height: 50px;
+    width: 170px;
 }
 /* Contactpage end */
 
 /* Carousel  */
 
 .carousel-main{
+    background-color: #202633;
+    color: aliceblue;
     display: flex;
     flex-direction: column;
-    padding: 10px;
+    padding: 50px 0 30px 0;
+ 
 }
 .carousel-header{
     text-align: center;
-    padding-top: 10px;
+    padding: 15px 0 30px 0;
+
+}
+.carousel-p{
+    text-align: center;
+    padding: 5px ;
 }
 .info-about{
     text-align: center;
     padding-top: 10px;
+}
+.d-block{
+    border-radius: 15%;
+    -webkit-border-radius: 15%;
+    -moz-border-radius: 15%;
+    -ms-border-radius: 15%;
+    -o-border-radius: 15%;
+}
+#contact-form-div-2{
+    background-color: #202633;
+    padding: 30px 0 30px 0;
+
+}
+#contact-form-2{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: auto;
+}
+.feedback-input{
+    height: 50px;
+}
+/* Main end */
+
+/* Footer */
+.footer{
+    background-color: #FFBC00;
+    display: flex;
+    flex-direction: column;
+}
+.info-footer{
+flex-direction: column;
+padding:20px 0 0 5px;
+}
+.footer-contact{
+    padding-left: 10px;
+}
+.footer-p{
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.fa-solid{
+    display: flex;
+    gap: 5px;
+}
+.fa-regular{
+    display: flex;
+    gap: 5px;
 }
 }
