@@ -216,10 +216,12 @@ padding:20px 0 0 5px;
 }
 .fa-solid{
     display: flex;
+    flex-direction: row;
     gap: 5px;
 }
 .fa-regular{
     display: flex;
+    flex-direction: row;
     gap: 5px;
 }
 }
