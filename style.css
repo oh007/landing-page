@@ -1,4 +1,4 @@
-
+/* Desktop styling */
 
 
 
@@ -89,6 +89,7 @@ button.button-1{
 }
 .card.card-reference{
     background-color:#202633;
+    border: solid 1px aliceblue;
 }
 #card-img{
     border-radius: 50%;
@@ -111,6 +112,45 @@ font-size: small;
 }
 /* Main page end */
 
+/* About page */
+.about-us{
+    background-color: #202633;
+    display: flex;
+    flex-direction: column;
+    padding: 80px 10px 10px 0px;
+}
+.about-header{
+padding:10px 0 10px 0;
+ color: aliceblue;
+ text-align: center;
+}
+.about-text{
+    color: aliceblue;
+    text-align: center;
+}
+.about-btn{
+    background-color: #FFBC00;
+    color: aliceblue;
+    margin: auto;
+    text-align: center;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    align-items: center;
+    height: 50px;
+    width: 170px;
+    margin-bottom: 10%;
+}
+#about-photo{
+    max-height: 450px;
+    border-radius: 10%;
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    -ms-border-radius: 10%;
+    -o-border-radius: 10%;
+}
 /* Contact page  */
 .contact-page{
     display: flex;
